@@ -1,0 +1,117 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+  color: #000; 
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #000;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: #000;
+}
+
+.input,
+.select {
+  padding: 0.5rem 0.75rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #000;
+  outline-offset: 2px;
+  outline-color: transparent;
+  transition: outline-color 0.15s ease-in-out;
+}
+
+.input:focus,
+.select:focus {
+  outline-color: #2563eb; /* blue focus */
+  border-color: #2563eb;
+}
+
+.error {
+  margin-top: 0.25rem;
+  color: #dc2626; /* red */
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.questionCard {
+  padding: 1rem 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.removeBtn {
+  background-color: #ef4444; /* red */
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.75rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.removeBtn:hover {
+  background-color: #b91c1c;
+}
+
+.addBtn {
+  align-self: flex-start;
+  background-color: #2563eb; /* blue */
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.addBtn:hover {
+  background-color: #1e40af;
+}
+
+.submitBtn {
+  background-color: #059669; /* green */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.submitBtn:hover {
+  background-color: #047857;
+}
